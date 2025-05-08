@@ -1,44 +1,65 @@
-# 🤝 Contributing to AutoBackupScript
+# 🤝 Guía de Contribución a AutoBackupScript
 
-Thank you for your interest in contributing to **AutoBackupScript**! Your help is welcome to improve, extend, or adapt the tool to new use cases.
-
----
-
-## 📋 Table of Contents
-
-- [Code of Conduct](#code-of-conduct)
-- [How to Contribute](#how-to-contribute)
-- [Development Setup](#development-setup)
-- [Suggestions for Improvement](#suggestions-for-improvement)
-- [Submitting a Pull Request](#submitting-a-pull-request)
-- [Reporting Bugs](#reporting-bugs)
-- [Feature Requests](#feature-requests)
-- [License](#license)
+¡Gracias por tu interés en contribuir a **AutoBackupScript**! Este proyecto busca ofrecer una herramienta simple y funcional para automatizar copias de seguridad en la nube, y siempre hay espacio para mejorar. Aquí te dejamos una guía rápida para participar.
 
 ---
 
-## 📜 Code of Conduct
+## 🚀 ¿Cómo contribuir?
 
-This project follows a friendly and respectful code of conduct. Please be kind and constructive in all interactions.
+1. **Haz un fork del repositorio**
+   - Puedes hacerlo desde GitHub con un solo clic.
 
----
+2. **Clona tu fork localmente**
+    ```bash
+    git clone https://github.com/tu_usuario/AutoBackupScript.git
 
-## 🚀 How to Contribute
+3. **Crea una rama para tu cambio**
+    ```bash
+    git checkout -b mi-mejora
 
-There are many ways to contribute:
+4. **Haz tus modificaciones y añade pruebas si es necesario**
 
-- 🔍 Report bugs or suggest features
-- 🧠 Improve the logic or add features (e.g., encryption)
-- 🌍 Add support for more cloud providers
-- 🧪 Improve test coverage
-- 🖋 Improve documentation or examples
+5. **Haz un commit claro y descriptivo**
+    ```bash
+    git commit -m "Agrega soporte para OneDrive"
 
----
+6. **Envía tu rama al repositorio remoto**
+    ```bash
+    git push origin mi-mejora
 
-## 🛠 Development Setup
+7. **Abre un Pull Request en el repositorio original describiendo tu cambio.**
 
-1. **Fork the repository** and clone it locally:
+## 🛠 Áreas interesantes para mejorar
+Si no sabes por dónde empezar, aquí te dejamos algunas ideas para contribuir:
 
-```bash
-git clone https://github.com/your-username/AutoBackupScript.git
-cd AutoBackupScript
+### 🔧 Funcionalidades técnicas
+ - Añadir soporte para OneDrive u otros servicios en la nube.
+
+ - Mejorar el sistema de programación con cronjobs desde el script.
+
+ - Crear una versión con interfaz gráfica ligera usando Tkinter o PyQt.
+
+ - Añadir registros de logs (archivos .log) para trazabilidad.
+
+ - Implementar cifrado opcional para los archivos respaldados.
+
+### 📄 Documentación
+ - Mejorar el README con más ejemplos de uso.
+
+ - Añadir diagramas de flujo o arquitectura.
+
+ - Escribir documentación técnica de cada módulo.
+
+### 🧪 Pruebas
+ - Escribir tests unitarios usando pytest.
+
+ - Crear mocks para simular interacciones con Google Drive y Dropbox.
+
+## 📋 Requisitos para pull requests
+- Código claro, comentado y funcional.
+
+- Si agregas nuevas dependencias, actualiza requirements.txt.
+
+- Evita subir archivos personales o credenciales.
+
+- Asegúrate de que no rompes funcionalidades existentes.
